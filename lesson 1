@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="all">
+    <h1 class="tittle"> Список произведений Толстого: </h1>
+        <ul>
+            <li class="class1">Война и Мир</li>
+            <li class="class2">Анна Каренина</li>
+            <li class="class1">Декабристы</li>
+            <li class="class3">Сто Лет</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+.all {
+    color: blue;
+    font-size: 14px;
+}
+.tittle {
+    font-size: 18px;
+}
+.class1 {
+    font-weight: bold;
+}
+.class2 {
+    color: red
+}
+class3 {
+    color: green;
+}
